@@ -1,0 +1,29 @@
+.transactionHistory {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin: auto;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #42a8af;
+  color: aliceblue;
+  text-align: center;
+}
+
+/*  stil pt randurile pare */
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* stil pt randurile impare */
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
