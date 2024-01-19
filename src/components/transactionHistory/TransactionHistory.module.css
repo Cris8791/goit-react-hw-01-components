@@ -1,8 +1,9 @@
 .transactionHistory {
   width: 50%;
   border-collapse: collapse;
-  margin-top: 30px;
+  margin-top: 35px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 th,
