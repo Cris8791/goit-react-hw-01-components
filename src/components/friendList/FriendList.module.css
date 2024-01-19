@@ -55,3 +55,51 @@
 
   font-weight: 650;
 }
+
+/* Media query pentru ecrane de tip mobil */
+@media screen and (max-width: 480px) {
+  .item {
+    max-width: 250px;
+  }
+
+  .avatar {
+    width: 20%;
+  }
+
+  .online {
+    width: 13px;
+    height: 13px;
+  }
+
+  .offline {
+    width: 13px;
+    height: 13px;
+  }
+
+  .name {
+    font-size: large;
+  }
+}
+
+/* Media query pentru ecrane de tip tabletă */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .avatar {
+    width: 20%;
+  }
+
+  .online {
+    width: 15px;
+    height: 15px;
+  }
+
+  .offline {
+    width: 15px;
+    height: 15px;
+  }
+
+  .name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 650;
+  }
+}
