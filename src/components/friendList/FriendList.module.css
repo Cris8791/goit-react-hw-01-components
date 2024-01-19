@@ -27,7 +27,8 @@
 .avatar {
   border-radius: 10%;
   margin-right: 10px;
-  border: 2px solid #ccc;
+  border: 2px solid #ebedf0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 25%;
   height: auto;
 }
